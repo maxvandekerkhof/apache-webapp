@@ -1,9 +1,18 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Lets go!</title>
-  </head>
-  <body>
-    <p>Second version lets go! Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welkom op mijn webserver</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welkom op mijn Webserver 🚀</h1>
+    <p>Deze pagina draait op een Apache-server, gedeployed via CI/CD naar Azure!</p>
+    <button onclick="showMessage()">Klik mij</button>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
